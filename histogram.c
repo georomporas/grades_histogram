@@ -32,10 +32,9 @@ int main(){
     if(cnt>=7){
       grade[ch - 48]++;
     }
-
-      
-
+    
   }
+  
   grade[10] = grade[0]; 
   grade[1] /= 2; // We wrongly counted the 1s when the grade was 10
 
