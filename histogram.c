@@ -22,13 +22,15 @@ int main(){
     while( (ch = fgetc(proodos)) != EOF ){
       
       cnt++;
-      if(cnt>=7 && ch != 10){
-        grade[ ch-48 ]++;
-      }
-
       if(ch == 10){ // ch == '\n'
         cnt = 0;
       }
+      
+      if(cnt>=7){
+        grade[ch - 48]++;
+      }
+
+      
 
     }
     grade[10] = grade[0]; 
