@@ -1,6 +1,6 @@
 /*
 *   Author: Georgios Romporas    
-*   Created for the IP class 2023 in Nov 16 2023 
+*   Created for the IP class 2023 in Nov 16 
 */
 
 #include <stdio.h>
